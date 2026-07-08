@@ -10,7 +10,7 @@
       "backgroundColor": "#1a1a2e"
     },
     "ios": {
-      "bundleIdentifier": "com.yourname.allinone",
+      "bundleIdentifier": "com.kabutakapon.allinone",
       "supportsTablet": false,
       "infoPlist": {
         "NSCameraUsageDescription": "カメラ機能のテストに使用します",
@@ -19,7 +19,7 @@
       }
     },
     "android": {
-      "package": "com.yourname.allinone"
+      "package": "com.kabutakapon.allinone"
     },
     "plugins": [
       [
