@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "All In One",
+    "slug": "all-in-one-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.allinone",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "カメラ機能のテストに使用します",
+        "NSLocationWhenInUseUsageDescription": "現在地表示のテストに使用します",
+        "NSPhotoLibraryAddUsageDescription": "撮影した写真の保存に使用します"
+      }
+    },
+    "android": {
+      "package": "com.yourname.allinone"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "カメラ機能のテストに使用します"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "現在地表示のテストに使用します"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
